@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>MegaStore</h1>
+        <input type="text" placeholder="Search" />
+        <div class="buttons">
+            <button>Log in</button>
+            <button>Sign up</button>
+            <button id="cart">Cart</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="category-wrapper">
+            <h1>Categories</h1>
+            <div class="category-list">
+
+            </div>
+
+        </section>
+
+        <section id="product-wrapper">
+            <h1>Products</h1>
+            <div class="product-list">
+
+            </div>
+        </section>
+
+        <section class="modal-wrapper">
+            <div class="modal">
+                <img id="close" src="/images/close.png" alt="">
+
+                <div id="modal-list">
+
+                </div>
+
+                <p class="sum-price">Sum: <span id="price">0</span> $</p>
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
